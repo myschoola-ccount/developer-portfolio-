@@ -1,0 +1,119 @@
+.subtext{
+    color: rgb(204, 196, 185);
+}
+
+.darksubtext{
+    color: rgb(118, 111, 127);
+}
+
+
+.titleimg{
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    transition: transform 0.8s ease-in-out
+}
+.titleimg:hover{
+    transform: scale(1.1);
+}
+.image{
+    height: 200px;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ailog{
+    background-color: #bbbbbb;
+}
+
+.headbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  transition: transform 0.8s ease-in-out;
+}
+
+.headbar:hover{
+    transform: scale(1.05);
+}
+
+a{
+    color: rgb(114, 102, 108);
+    text-decoration: none;
+}
+
+ol{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(163, 130, 107);
+    transition: transform 0.8s ease-in-out
+}
+
+.image:hover{
+    transform: scale(1.02);
+}
+
+.aboutme{
+    background-color: #fffdf3;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: #808080 3px ridge;
+}
+
+th, td {
+    border: #808080 2px ridge;
+    background-color: rgb(235, 230, 231);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #808080;
+    color: rgb(235, 230, 231);
+}
+
+.journal{
+    background-color: #e8ecf0;
+}
+
+.home{
+    background-color: #fef8fb;
+}
+
+.clock{
+    background-color: #011020;
+    width: 150px;
+    height: 50px;
+    border: #808080 3px ridge;
+    margin: 0 auto;
+    transition: transform 0.8s ease-in-out;
+}
+
+.clock:hover {
+    transform: rotate(2deg);
+}
+
+
+
+#time{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(233, 8, 120);
+    margin: 0 auto;
+    line-height: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 21, 255, 0.5);
+}
